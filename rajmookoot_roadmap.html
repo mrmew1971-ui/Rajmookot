@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Rajmookoot English Care Museum - Roadmap</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Hind Siliguri & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Hind Siliguri"', '"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Plus Jakarta Sans"', '"Hind Siliguri"', 'sans-serif'],
+          },
+          colors: {
+            brandNavy: '#081c3b',
+            brandRed: '#d91b24',
+            brandGold: '#f59e0b',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Hind Siliguri', sans-serif;
+      background-color: #f1f5f9;
+      color: #1e293b;
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .pill-touch {
+      transition: transform 0.15s ease, background-color 0.15s ease;
+    }
+    .pill-touch:active {
+      transform: scale(0.98);
+    }
+    @media (min-width: 640px) {
+      .pill-touch:hover {
+        transform: translateY(-2px);
+      }
+    }
+  </style>
+</head>
+<body class="p-2 sm:p-4 md:p-6 lg:p-8 flex justify-center items-center min-h-screen">
+
+  <!-- Main Container -->
+  <div class="max-w-4xl w-full bg-white border border-slate-200/90 rounded-2xl sm:rounded-3xl p-3.5 sm:p-6 md:p-8 shadow-lg flex flex-col items-center">
+    
+    <!-- ============================================== -->
+    <!-- TOP SECTION: গোল লোগো ও ব্র্যান্ড পরিচিতি -->
+    <!-- ============================================== -->
+    <header class="flex flex-col items-center text-center mb-6 sm:mb-8 w-full">
+      
+      <!-- গোল লোগো (Circular Logo) -->
+      <div class="w-40 h-40 sm:w-52 sm:h-52 rounded-full border-[5px] sm:border-[6px] border-brandNavy bg-white flex flex-col items-center justify-center p-3 shadow-md mb-3 transition hover:scale-105 duration-300">
+        <!-- Crown Icon -->
+        <div class="text-amber-500 mb-0.5 sm:mb-1">
+          <svg class="w-9 h-9 sm:w-11 sm:h-11 drop-shadow mx-auto" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M2.5 19h19a1 1 0 0 0 1-1V9a1 1 0 0 0-1.6-.8l-4.4 3.3-3.4-6.8a1 1 0 0 0-1.8 0L7.9 11.5 3.5 8.2A1 1 0 0 0 1.9 9v9a1 1 0 0 0 .6 1zM4 17V11.2l3.4 2.5a1 1 0 0 0 1.4-.2L12 7.3l3.2 6.2a1 1 0 0 0 1.4.2L20 11.2V17H4zM12 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM4 5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm16 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+          </svg>
+        </div>
+        
+        <!-- লোগো টেক্সট -->
+        <h1 class="font-display font-black text-lg sm:text-2xl text-brandNavy leading-tight tracking-tight">
+          RAJMOOKOOT
+        </h1>
+        <h2 class="font-display font-black text-xs sm:text-base text-brandRed tracking-wide">
+          ENGLISH CARE
+        </h2>
+        <span class="inline-block bg-amber-500 text-slate-950 text-[9px] sm:text-[10px] font-black px-2 py-0.5 rounded tracking-widest uppercase mt-0.5 shadow-xs">
+          MUSEUM
+        </span>
+      </div>
+
+      <!-- সাব-টাইটেল ও ক্লাস ব্যাজ -->
+      <div class="inline-block bg-brandNavy text-white font-display font-bold text-[11px] sm:text-sm px-3.5 py-1 rounded-full uppercase tracking-wider mb-2 shadow-xs max-w-full text-center">
+        ONLINE CONTENT &amp; MARKETING ROADMAP
+      </div>
+      <span class="text-[11px] sm:text-xs font-bold text-slate-700 bg-slate-100 px-3 py-0.5 rounded-full border border-slate-200">
+        Class 6 – HSC
+      </span>
+    </header>
+
+
+    <!-- ============================================== -->
+    <!-- স্টেপ বাই স্টেপ সেকশন (Step by Step Flow) -->
+    <!-- ============================================== -->
+    <div class="w-full flex flex-col gap-4 sm:gap-6">
+
+      <!-- STEP 1: প্রধান লক্ষ্য (MAIN GOAL) -->
+      <section class="border border-slate-200 rounded-xl sm:rounded-2xl overflow-hidden shadow-xs bg-white">
+        <div class="bg-[#09224f] text-white py-2.5 px-3.5 sm:px-5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="bg-red-500 text-white text-[10px] sm:text-xs font-black px-2 py-0.5 rounded uppercase">STEP 01</span>
+            <h3 class="font-bold text-xs sm:text-base tracking-wide">প্রধান লক্ষ্য (MAIN GOAL)</h3>
+          </div>
+          <span class="text-base sm:text-xl">🎯</span>
+        </div>
+
+        <div class="p-3 sm:p-4 grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 bg-slate-50/50">
+          <div class="bg-white p-2.5 sm:p-3 rounded-lg sm:rounded-xl border border-slate-200/80 flex items-center gap-2 shadow-xs">
+            <span class="text-lg sm:text-2xl">🌐</span>
+            <span class="font-bold text-slate-800 text-xs sm:text-sm leading-tight">Online Brand তৈরি</span>
+          </div>
+          <div class="bg-white p-2.5 sm:p-3 rounded-lg sm:rounded-xl border border-slate-200/80 flex items-center gap-2 shadow-xs">
+            <span class="text-lg sm:text-2xl">👥</span>
+            <span class="font-bold text-slate-800 text-xs sm:text-sm leading-tight">Student Reach বৃদ্ধি</span>
+          </div>
+          <div class="bg-white p-2.5 sm:p-3 rounded-lg sm:rounded-xl border border-slate-200/80 flex items-center gap-2 shadow-xs">
+            <span class="text-lg sm:text-2xl">🎓</span>
+            <span class="font-bold text-slate-800 text-xs sm:text-sm leading-tight">Admission বৃদ্ধি</span>
+          </div>
+          <div class="bg-white p-2.5 sm:p-3 rounded-lg sm:rounded-xl border border-slate-200/80 flex items-center gap-2 shadow-xs">
+            <span class="text-lg sm:text-2xl">📈</span>
+            <span class="font-bold text-slate-800 text-xs sm:text-sm leading-tight">Trust &amp; Growth</span>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- STEP 2: কন্টেন্ট প্ল্যানিং (CONTENT PLANNING) -->
+      <section class="border border-slate-200 rounded-xl sm:rounded-2xl overflow-hidden shadow-xs bg-white">
+        <div class="bg-slate-800 text-white py-2.5 px-3.5 sm:px-5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="bg-indigo-500 text-white text-[10px] sm:text-xs font-black px-2 py-0.5 rounded uppercase">STEP 02</span>
+            <h3 class="font-bold text-xs sm:text-base tracking-wide">কন্টেন্ট প্ল্যানিং ও বিষয় নির্বাচন</h3>
+          </div>
+          <span class="text-base sm:text-xl">📝</span>
+        </div>
+
+        <div class="p-3 sm:p-5 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5">
+          
+          <!-- Class Related Content -->
+          <div class="border border-purple-200 bg-purple-50/40 rounded-xl p-3 sm:p-4 flex flex-col gap-2">
+            <div class="bg-[#4a154b] text-white py-1.5 px-3 rounded-lg flex items-center justify-between mb-1">
+              <span class="font-bold text-[11px] sm:text-xs uppercase tracking-wide flex items-center gap-1.5">
+                <span>🎓</span> Class Related Content
+              </span>
+              <span class="text-[10px] bg-purple-900/90 px-1.5 py-0.5 rounded text-purple-200">৯টি টপিক</span>
+            </div>
+            
+            <div class="grid grid-cols-1 gap-1.5 text-xs sm:text-sm">
+              <div class="pill-touch flex items-center gap-2 bg-white border border-purple-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>👨‍🎓</span> Class 6 – 10 Content
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-purple-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>🎓</span> SSC Preparation
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-purple-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>🎓</span> HSC Preparation
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-purple-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>📕</span> English Grammar
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-purple-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>💡</span> Important Rules &amp; Tips
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-purple-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>❌</span> Common Mistakes
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-purple-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>📋</span> Exam Suggestions
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-purple-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>📝</span> Question Solve
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-purple-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>🔤</span> Vocabulary &amp; Writing
+              </div>
+            </div>
+          </div>
+
+          <!-- Marketing Related Content -->
+          <div class="border border-blue-200 bg-blue-50/40 rounded-xl p-3 sm:p-4 flex flex-col gap-2">
+            <div class="bg-[#1e40af] text-white py-1.5 px-3 rounded-lg flex items-center justify-between mb-1">
+              <span class="font-bold text-[11px] sm:text-xs uppercase tracking-wide flex items-center gap-1.5">
+                <span>📢</span> Marketing Related Content
+              </span>
+              <span class="text-[10px] bg-blue-900/90 px-1.5 py-0.5 rounded text-blue-200">৯টি টপিক</span>
+            </div>
+
+            <div class="grid grid-cols-1 gap-1.5 text-xs sm:text-sm">
+              <div class="pill-touch flex items-center gap-2 bg-white border border-blue-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>🏛️</span> Coaching Introduction
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-blue-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>👨‍🏫</span> Teacher Branding
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-blue-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>👥</span> Class Environment &amp; Activities
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-blue-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>💬</span> Student Feedback
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-blue-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>🏆</span> Result &amp; Success Story
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-blue-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>📣</span> New Batch Announcement
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-blue-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span class="text-[9px] bg-blue-600 text-white px-1 py-0.5 rounded font-black">OPEN</span> Admission Campaign
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-blue-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>🎁</span> Special Offers
+              </div>
+              <div class="pill-touch flex items-center gap-2 bg-white border border-blue-100 rounded-lg px-3 py-1.5 font-bold text-slate-800">
+                <span>👨‍👩‍👧‍👦</span> Parents &amp; Students Guidance
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- STEP 3: পাবলিশিং প্ল্যাটফর্ম ও সেটআপ (PLATFORMS & SETUP) -->
+      <section class="border border-slate-200 rounded-xl sm:rounded-2xl overflow-hidden shadow-xs bg-white">
+        <div class="bg-slate-800 text-white py-2.5 px-3.5 sm:px-5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="bg-amber-500 text-slate-900 text-[10px] sm:text-xs font-black px-2 py-0.5 rounded uppercase">STEP 03</span>
+            <h3 class="font-bold text-xs sm:text-base tracking-wide">প্ল্যাটফর্ম ও ভিডিও সেটআপ</h3>
+          </div>
+          <span class="text-base sm:text-xl">📱</span>
+        </div>
+
+        <div class="p-3 sm:p-5 grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
+          
+          <!-- Platforms -->
+          <div class="border border-amber-300 bg-amber-50/40 rounded-xl p-3 sm:p-4 flex flex-col justify-between">
+            <div>
+              <h4 class="font-bold text-xs text-amber-900 uppercase tracking-wide mb-2.5 flex items-center gap-1.5">
+                <span>📱</span> CONTENT PLATFORMS
+              </h4>
+              
+              <div class="grid grid-cols-4 gap-1.5 sm:gap-2 text-center my-1.5">
+                <div class="flex flex-col items-center bg-white p-1.5 sm:p-2 rounded-lg border border-amber-200/80">
+                  <div class="w-9 h-9 sm:w-11 sm:h-11 bg-blue-600 text-white rounded-lg flex items-center justify-center font-bold text-base shadow-xs">f</div>
+                  <span class="text-[10px] sm:text-xs font-bold text-slate-700 mt-1 leading-tight">Facebook<br>Page</span>
+                </div>
+                <div class="flex flex-col items-center bg-white p-1.5 sm:p-2 rounded-lg border border-amber-200/80">
+                  <div class="w-9 h-9 sm:w-11 sm:h-11 bg-gradient-to-tr from-rose-500 to-indigo-600 text-white rounded-lg flex items-center justify-center text-sm sm:text-base shadow-xs">🎬</div>
+                  <span class="text-[10px] sm:text-xs font-bold text-slate-700 mt-1 leading-tight">Facebook<br>Reels</span>
+                </div>
+                <div class="flex flex-col items-center bg-white p-1.5 sm:p-2 rounded-lg border border-amber-200/80">
+                  <div class="w-9 h-9 sm:w-11 sm:h-11 bg-black text-white rounded-lg flex items-center justify-center text-sm sm:text-base shadow-xs">🎵</div>
+                  <span class="text-[10px] sm:text-xs font-bold text-slate-700 mt-1 leading-tight">TikTok</span>
+                </div>
+                <div class="flex flex-col items-center bg-white p-1.5 sm:p-2 rounded-lg border border-amber-200/80">
+                  <div class="w-9 h-9 sm:w-11 sm:h-11 bg-red-600 text-white rounded-lg flex items-center justify-center text-sm sm:text-base shadow-xs">▶</div>
+                  <span class="text-[10px] sm:text-xs font-bold text-slate-700 mt-1 leading-tight">YouTube<br>Shorts</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-amber-100/80 border border-amber-300 text-amber-950 text-[11px] sm:text-xs font-bold py-1.5 px-2 rounded-lg text-center mt-2.5">
+              Same Content ➔ Different Platform <span class="block text-[10px] sm:text-[11px] font-normal text-amber-800">(Reach will be Maximum)</span>
+            </div>
+          </div>
+
+          <!-- Mobile Setup -->
+          <div class="border border-rose-300 bg-rose-50/40 rounded-xl p-3 sm:p-4 flex flex-col justify-between">
+            <h4 class="font-bold text-xs text-rose-900 uppercase tracking-wide mb-2.5 flex items-center gap-1.5">
+              <span>🎥</span> MOBILE SETUP (আমাদের যা আছে)
+            </h4>
+
+            <div class="grid grid-cols-1 gap-1.5 text-xs sm:text-sm">
+              <div class="bg-white border border-rose-100 rounded-lg px-3 py-1.5 font-bold text-slate-800 flex items-center gap-2">
+                <span>📱</span> Mobile Phone – Video Recording
+              </div>
+              <div class="bg-white border border-rose-100 rounded-lg px-3 py-1.5 font-bold text-slate-800 flex items-center gap-2">
+                <span>🎙️</span> Sound Recording Setup
+              </div>
+              <div class="bg-white border border-rose-100 rounded-lg px-3 py-1.5 font-bold text-slate-800 flex items-center gap-2">
+                <span>📐</span> Mobile Stand / Tripod
+              </div>
+              <div class="bg-white border border-rose-100 rounded-lg px-3 py-1.5 font-bold text-slate-800 flex items-center gap-2">
+                <span>💡</span> Good Lighting &amp; Background
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- STEP 4: দায়িত্ব বণ্টন (RESPONSIBILITIES) -->
+      <section class="border border-slate-200 rounded-xl sm:rounded-2xl overflow-hidden shadow-xs bg-white">
+        <div class="bg-slate-800 text-white py-2.5 px-3.5 sm:px-5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="bg-teal-500 text-white text-[10px] sm:text-xs font-black px-2 py-0.5 rounded uppercase">STEP 04</span>
+            <h3 class="font-bold text-xs sm:text-base tracking-wide">কাজের দায়িত্ব বণ্টন</h3>
+          </div>
+          <span class="text-base sm:text-xl">🤝</span>
+        </div>
+
+        <div class="p-3 sm:p-5 grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-5 items-start">
+          
+          <!-- My Responsibilities (আমি যা করব) - ভিতরের মধ্যেই সময় দেওয়ার পয়েন্টটি যুক্ত -->
+          <div class="lg:col-span-8 border border-teal-600 rounded-xl overflow-hidden bg-white shadow-xs">
+            <div class="bg-teal-700 text-white py-1.5 px-3 sm:px-4 flex items-center justify-between">
+              <span class="font-bold text-xs sm:text-sm uppercase tracking-wide flex items-center gap-1.5">
+                <span>👨‍💻</span> MY RESPONSIBILITIES (আমি যা করব)
+              </span>
+              <span class="text-[10px] bg-teal-900 px-1.5 py-0.5 rounded text-teal-200">দায়িত্বসমূহ</span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5 sm:gap-2 p-2.5 sm:p-3.5 text-xs sm:text-sm font-bold text-slate-800">
+              <div class="flex items-center gap-2 bg-teal-50/50 p-1.5 sm:p-2 rounded border border-teal-100">
+                <span class="text-teal-600 font-black">✔</span> Video Idea A–Z
+              </div>
+              <div class="flex items-center gap-2 bg-teal-50/50 p-1.5 sm:p-2 rounded border border-teal-100">
+                <span class="text-teal-600 font-black">✔</span> Video Editing
+              </div>
+              <div class="flex items-center gap-2 bg-teal-50/50 p-1.5 sm:p-2 rounded border border-teal-100">
+                <span class="text-teal-600 font-black">✔</span> Content Planning &amp; Topic
+              </div>
+              <div class="flex items-center gap-2 bg-teal-50/50 p-1.5 sm:p-2 rounded border border-teal-100">
+                <span class="text-teal-600 font-black">✔</span> Subtitle / Text
+              </div>
+              <div class="flex items-center gap-2 bg-teal-50/50 p-1.5 sm:p-2 rounded border border-teal-100">
+                <span class="text-teal-600 font-black">✔</span> Script / Structure
+              </div>
+              <div class="flex items-center gap-2 bg-teal-50/50 p-1.5 sm:p-2 rounded border border-teal-100">
+                <span class="text-teal-600 font-black">✔</span> Thumbnail / Cover Design
+              </div>
+              <div class="flex items-center gap-2 bg-teal-50/50 p-1.5 sm:p-2 rounded border border-teal-100">
+                <span class="text-teal-600 font-black">✔</span> Video Shooting (Mobile)
+              </div>
+              <div class="flex items-center gap-2 bg-teal-50/50 p-1.5 sm:p-2 rounded border border-teal-100">
+                <span class="text-teal-600 font-black">✔</span> Posting Strategy &amp; Schedule
+              </div>
+              <div class="flex items-center gap-2 bg-teal-50/50 p-1.5 sm:p-2 rounded border border-teal-100">
+                <span class="text-teal-600 font-black">✔</span> Camera Angle &amp; Direction
+              </div>
+              <div class="flex items-center gap-2 bg-teal-50/50 p-1.5 sm:p-2 rounded border border-teal-100">
+                <span class="text-teal-600 font-black">✔</span> Platform Optimization
+              </div>
+              <div class="flex items-center gap-2 bg-teal-50/50 p-1.5 sm:p-2 rounded border border-teal-100">
+                <span class="text-teal-600 font-black">✔</span> Multiple Takes
+              </div>
+              <div class="flex items-center gap-2 bg-teal-50/50 p-1.5 sm:p-2 rounded border border-teal-100">
+                <span class="text-teal-600 font-black">✔</span> Performance Analysis
+              </div>
+
+              <!-- তালিকার ভেতরেই অন্তর্ভুক্ত বিশেষ টাইম কমিটমেন্ট পয়েন্ট -->
+              <div class="col-span-1 sm:col-span-2 flex items-center gap-2.5 bg-gradient-to-r from-teal-900 to-teal-800 text-white p-2.5 rounded-lg border border-teal-700 shadow-xs mt-0.5">
+                <span class="text-xl shrink-0">⏱️</span>
+                <span class="text-xs sm:text-sm font-semibold leading-snug">
+                  আমি <span class="text-amber-300 font-bold">২–৩ ঘণ্টা</span> কোচিং সেন্টারে টাইম দেবো ভিডিও রেকর্ড, শুটিং, গাইড এবং অন্যান্য কাজের জন্য।
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Client's Responsibility (আপনার যা করতে হবে) -->
+          <div class="lg:col-span-4 border border-indigo-700 rounded-xl overflow-hidden bg-white shadow-xs flex flex-col justify-between h-full">
+            <div>
+              <div class="bg-indigo-800 text-white py-1.5 px-3 sm:px-4">
+                <span class="font-bold text-xs sm:text-sm uppercase tracking-wide">🧑‍🏫 CLIENT'S RESPONSIBILITY</span>
+              </div>
+
+              <div class="p-3 sm:p-4 flex flex-col gap-2 text-xs sm:text-sm font-bold text-slate-800">
+                <div class="flex items-start gap-2">
+                  <span class="text-indigo-600 font-black mt-0.5">✔</span>
+                  <span>Topic অনুযায়ী প্রস্তুতি নেওয়া</span>
+                </div>
+                <div class="flex items-start gap-2">
+                  <span class="text-indigo-600 font-black mt-0.5">✔</span>
+                  <span>নিজের Subject সুন্দরভাবে উপস্থাপন করা</span>
+                </div>
+                <div class="flex items-start gap-2">
+                  <span class="text-indigo-600 font-black mt-0.5">✔</span>
+                  <span>ধীরে ধীরে Camera সামনে Comfortable হওয়া</span>
+                </div>
+                <div class="flex items-start gap-2">
+                  <span class="text-indigo-600 font-black mt-0.5">✔</span>
+                  <span>নিয়মিত সময় দেওয়া ও সহযোগিতা করা</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-2.5 bg-indigo-50 border-t border-indigo-100 flex items-center justify-end text-indigo-900">
+              <span class="text-[11px] font-semibold text-indigo-700">পারস্পরিক সহযোগিতায় পূর্ণ সাফল্য 🚀</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- STEP 5: ক্যামেরা কনফিডেন্স জার্নি (CAMERA CONFIDENCE JOURNEY) -->
+      <section class="border border-slate-200 rounded-xl sm:rounded-2xl overflow-hidden shadow-xs bg-white">
+        <div class="bg-slate-800 text-white py-2.5 px-3.5 sm:px-5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="bg-rose-500 text-white text-[10px] sm:text-xs font-black px-2 py-0.5 rounded uppercase">STEP 05</span>
+            <h3 class="font-bold text-xs sm:text-base tracking-wide">ক্যামেরা কনফিডেন্স জার্নি</h3>
+          </div>
+          <span class="text-base sm:text-xl">🎬</span>
+        </div>
+
+        <div class="p-3 sm:p-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2 sm:gap-3">
+          
+          <div class="border border-emerald-400 bg-emerald-50/20 rounded-xl p-2.5 flex flex-col items-center text-center shadow-xs">
+            <span class="text-[10px] font-black text-emerald-600 uppercase tracking-wider">PHASE 1</span>
+            <div class="w-8 h-8 sm:w-10 sm:h-10 my-1 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 text-sm sm:text-lg font-bold">📹</div>
+            <p class="text-[11px] sm:text-xs font-bold text-slate-800 leading-tight">Practice Video<br><span class="font-normal text-slate-500 text-[10px]">(Short &amp; Simple)</span></p>
+          </div>
+
+          <div class="border border-lime-400 bg-lime-50/20 rounded-xl p-2.5 flex flex-col items-center text-center shadow-xs">
+            <span class="text-[10px] font-black text-lime-600 uppercase tracking-wider">PHASE 2</span>
+            <div class="w-8 h-8 sm:w-10 sm:h-10 my-1 rounded-full bg-lime-100 flex items-center justify-center text-lime-700 text-sm sm:text-lg font-bold">⏱️</div>
+            <p class="text-[11px] sm:text-xs font-bold text-slate-800 leading-tight">30 Sec – 1 Min<br><span class="font-normal text-slate-600 text-[10px]">English Tips</span></p>
+          </div>
+
+          <div class="border border-amber-400 bg-amber-50/20 rounded-xl p-2.5 flex flex-col items-center text-center shadow-xs">
+            <span class="text-[10px] font-black text-amber-600 uppercase tracking-wider">PHASE 3</span>
+            <div class="w-8 h-8 sm:w-10 sm:h-10 my-1 rounded-full bg-amber-100 flex items-center justify-center text-amber-700 text-sm sm:text-lg font-bold">📖</div>
+            <p class="text-[11px] sm:text-xs font-bold text-slate-800 leading-tight">Grammar Tips<br><span class="font-normal text-slate-600 text-[10px]">Topic Based Video</span></p>
+          </div>
+
+          <div class="border border-orange-400 bg-orange-50/20 rounded-xl p-2.5 flex flex-col items-center text-center shadow-xs">
+            <span class="text-[10px] font-black text-orange-600 uppercase tracking-wider">PHASE 4</span>
+            <div class="w-8 h-8 sm:w-10 sm:h-10 my-1 rounded-full bg-orange-100 flex items-center justify-center text-orange-700 text-sm sm:text-lg font-bold">🧑‍🏫</div>
+            <p class="text-[11px] sm:text-xs font-bold text-slate-800 leading-tight">Regular Content<br><span class="font-normal text-slate-600 text-[10px]">Camera Comfort</span></p>
+          </div>
+
+          <div class="col-span-2 sm:col-span-1 border border-red-400 bg-red-50/20 rounded-xl p-2.5 flex flex-col items-center text-center shadow-xs">
+            <span class="text-[10px] font-black text-red-600 uppercase tracking-wider">PHASE 5</span>
+            <div class="w-8 h-8 sm:w-10 sm:h-10 my-1 rounded-full bg-red-100 flex items-center justify-center text-red-700 text-sm sm:text-lg font-bold">🎯</div>
+            <p class="text-[11px] sm:text-xs font-bold text-slate-800 leading-tight">Expert Presenter<br><span class="font-normal text-slate-600 text-[10px]">Confident Delivery</span></p>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- STEP 6: প্রত্যাশিত ফলাফল (EXPECTED RESULTS) -->
+      <section class="border border-slate-200 rounded-xl sm:rounded-2xl overflow-hidden shadow-xs bg-white">
+        <div class="bg-slate-800 text-white py-2.5 px-3.5 sm:px-5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="bg-emerald-500 text-white text-[10px] sm:text-xs font-black px-2 py-0.5 rounded uppercase">STEP 06</span>
+            <h3 class="font-bold text-xs sm:text-base tracking-wide">প্রত্যাশিত ফলাফল</h3>
+          </div>
+          <span class="text-base sm:text-xl">📊</span>
+        </div>
+
+        <div class="p-3 sm:p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-2 bg-slate-50/50">
+          <div class="bg-white p-2.5 rounded-lg border border-slate-200/90 flex items-center gap-2 shadow-xs">
+            <span class="text-blue-600 font-black text-sm">✔</span>
+            <span class="font-bold text-slate-800 text-xs sm:text-sm">Brand Awareness বৃদ্ধি</span>
+          </div>
+          <div class="bg-white p-2.5 rounded-lg border border-slate-200/90 flex items-center gap-2 shadow-xs">
+            <span class="text-blue-600 font-black text-sm">✔</span>
+            <span class="font-bold text-slate-800 text-xs sm:text-sm">Quality Audience তৈরি</span>
+          </div>
+          <div class="bg-white p-2.5 rounded-lg border border-slate-200/90 flex items-center gap-2 shadow-xs">
+            <span class="text-blue-600 font-black text-sm">✔</span>
+            <span class="font-bold text-slate-800 text-xs sm:text-sm">Student Engagement বৃদ্ধি</span>
+          </div>
+          <div class="bg-white p-2.5 rounded-lg border border-slate-200/90 flex items-center gap-2 shadow-xs">
+            <span class="text-blue-600 font-black text-sm">✔</span>
+            <span class="font-bold text-slate-800 text-xs sm:text-sm">New Student Enrollment</span>
+          </div>
+          <div class="bg-white p-2.5 rounded-lg border border-slate-200/90 flex items-center gap-2 shadow-xs">
+            <span class="text-blue-600 font-black text-sm">✔</span>
+            <span class="font-bold text-slate-800 text-xs sm:text-sm">Long Term Success</span>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+
+    <!-- ============================================== -->
+    <!-- FINAL MISSION BANNER (চূড়ান্ত লক্ষ্য) -->
+    <!-- ============================================== -->
+    <footer class="w-full mt-6 sm:mt-8 bg-brandNavy text-white py-3 px-4 rounded-xl sm:rounded-2xl flex items-center justify-center text-center shadow-md">
+      <p class="text-[11px] sm:text-sm md:text-base font-bold flex items-center gap-1.5 sm:gap-2">
+        <span class="text-amber-400 text-base sm:text-lg">★</span>
+        <span>আমাদের লক্ষ্য – <span class="text-amber-400 font-extrabold">Rajmookoot English Care Museum</span>-কে একটি শক্তিশালী Online Brand হিসেবে প্রতিষ্ঠা করা।</span>
+      </p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
